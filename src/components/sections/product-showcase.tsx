@@ -112,7 +112,7 @@ export function ProductShowcaseSection() {
         >
           <div className="grid lg:grid-cols-[1fr_1fr] min-h-[480px]">
             {/* Left: Content */}
-            <div className="bg-gradient-to-br from-[#fffbf4] to-white p-8 sm:p-12 flex flex-col justify-center relative overflow-hidden order-2 lg:order-1">
+            <div className="bg-gradient-to-br from-[#f0f7f9] to-white p-8 sm:p-12 flex flex-col justify-center relative overflow-hidden order-2 lg:order-1">
               <div className="absolute -top-12 -left-12 h-48 w-48 rounded-full bg-[hsl(var(--brand-leaf)/0.08)] blur-2xl" />
               <div className="absolute bottom-0 right-0 h-48 w-48 rounded-full bg-[hsl(var(--primary)/0.06)] blur-2xl" />
               <div className="absolute top-8 left-8">

@@ -33,7 +33,7 @@ export function AboutPageContent() {
   return (
     <>
       {/* Mission section */}
-      <section className="py-16 md:py-20 bg-[#fffbf4]">
+      <section className="py-16 md:py-20 bg-[#f0f7f9]">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           {/* Stats */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-20">

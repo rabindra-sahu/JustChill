@@ -114,7 +114,7 @@ export function ProductsCatalog() {
       : [{ id: "chia", label: "Chia Seed Drink", flavors: CHIA_SEED_FLAVORS }];
 
   return (
-    <section className="py-16 md:py-20 bg-[#fffbf4]">
+    <section className="py-16 md:py-20 bg-[#f0f7f9]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Filter bar */}
         <div className="flex flex-wrap items-center gap-3 mb-12">

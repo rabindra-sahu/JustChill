@@ -31,7 +31,7 @@ const values = [
 
 export function AboutSection() {
   return (
-    <section id="about" className="py-20 md:py-28 relative overflow-hidden bg-[#fffbf4]">
+    <section id="about" className="py-20 md:py-28 relative overflow-hidden bg-[#f0f7f9]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Top header */}
         <motion.div

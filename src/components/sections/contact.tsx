@@ -48,7 +48,7 @@ const contactCards = [
 
 export function ContactSection() {
   return (
-    <section id="contact" className="py-20 md:py-28 bg-[#fffbf4]">
+    <section id="contact" className="py-20 md:py-28 bg-[#f0f7f9]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

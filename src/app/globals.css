@@ -3,35 +3,35 @@
 @layer base {
   :root {
     /* Core semantic tokens */
-    --background: 40 60% 98%;
-    --foreground: 155 45% 8%;
+    --background: 0 0% 100%;
+    --foreground: 198 60% 12%;
     --card: 0 0% 100%;
-    --card-foreground: 155 45% 8%;
-    --popover: 38 60% 99%;
-    --popover-foreground: 155 45% 8%;
+    --card-foreground: 198 60% 12%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 198 60% 12%;
     --primary: 22 96% 52%;
-    --primary-foreground: 40 67% 98%;
-    --secondary: 145 32% 88%;
-    --secondary-foreground: 156 28% 18%;
-    --muted: 40 45% 92%;
-    --muted-foreground: 156 12% 44%;
-    --accent: 43 95% 92%;
-    --accent-foreground: 156 28% 18%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 188 86% 45%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 195 24% 95%;
+    --muted-foreground: 198 15% 45%;
+    --accent: 80 90% 48%;
+    --accent-foreground: 198 60% 12%;
     --destructive: 0 75% 57%;
-    --destructive-foreground: 40 67% 98%;
-    --border: 40 24% 88%;
-    --input: 40 24% 88%;
-    --ring: 22 96% 52%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 195 18% 89%;
+    --input: 195 18% 89%;
+    --ring: 188 86% 45%;
     --radius: 0.875rem;
 
     /* Brand palette */
-    --brand-leaf: 156 46% 30%;
-    --brand-sun: 39 96% 60%;
-    --brand-berry: 346 72% 54%;
-    --brand-sky: 198 74% 47%;
-    --brand-forest: 155 55% 10%;
-    --brand-gold: 40 92% 52%;
-    --brand-cream: 40 60% 98%;
+    --brand-leaf: 135 70% 40%;
+    --brand-sun: 80 90% 48%;
+    --brand-berry: 346 85% 55%;
+    --brand-sky: 188 86% 45%;
+    --brand-forest: 198 55% 9%;
+    --brand-gold: 22 96% 52%;
+    --brand-cream: 0 0% 100%;
 
     /* Transitions */
     --transition-base: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -41,25 +41,25 @@
   }
 
   .dark {
-    --background: 158 30% 8%;
-    --foreground: 39 58% 96%;
-    --card: 158 25% 11%;
-    --card-foreground: 39 58% 96%;
-    --popover: 158 25% 11%;
-    --popover-foreground: 39 58% 96%;
-    --primary: 24 91% 60%;
-    --primary-foreground: 158 30% 8%;
-    --secondary: 157 22% 18%;
-    --secondary-foreground: 39 58% 96%;
-    --muted: 156 16% 16%;
-    --muted-foreground: 39 20% 68%;
-    --accent: 156 16% 16%;
-    --accent-foreground: 39 58% 96%;
-    --destructive: 0 64% 52%;
-    --destructive-foreground: 39 58% 96%;
-    --border: 156 18% 20%;
-    --input: 156 18% 20%;
-    --ring: 24 91% 60%;
+    --background: 198 55% 9%;
+    --foreground: 195 25% 95%;
+    --card: 198 45% 12%;
+    --card-foreground: 195 25% 95%;
+    --popover: 198 45% 12%;
+    --popover-foreground: 195 25% 95%;
+    --primary: 22 96% 55%;
+    --primary-foreground: 198 55% 9%;
+    --secondary: 188 86% 45%;
+    --secondary-foreground: 198 55% 9%;
+    --muted: 198 30% 16%;
+    --muted-foreground: 195 15% 65%;
+    --accent: 80 90% 48%;
+    --accent-foreground: 198 55% 9%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 195 25% 95%;
+    --border: 198 30% 18%;
+    --input: 198 30% 18%;
+    --ring: 188 86% 45%;
   }
 }
 
@@ -265,8 +265,8 @@
   }
 
   .surface-dark {
-    background: #0d2b20;
-    color: #fffbf4;
+    background: #07212b;
+    color: #ffffff;
   }
 
   /* ── Gradient text ── */
@@ -482,13 +482,13 @@
 
   /* ── Dark section utilities ── */
   .dark-section {
-    background: #0d2b20;
-    color: #fffbf4;
+    background: #07212b;
+    color: #ffffff;
   }
 
   .forest-section {
-    background: linear-gradient(135deg, #0d2b20 0%, #173d2c 50%, #0d2b20 100%);
-    color: #fffbf4;
+    background: linear-gradient(135deg, #07212b 0%, #0e303d 50%, #07212b 100%);
+    color: #ffffff;
   }
 
   /* ── Input overrides for dark forms ── */

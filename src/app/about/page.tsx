@@ -13,7 +13,7 @@ export default function AboutPage() {
     <>
       {/* Hero */}
       <section className="relative overflow-hidden pt-28 pb-16 md:pt-36 md:pb-24">
-        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#fffbf4] via-white to-[#f0faf5]" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-br from-[#f0f7f9] via-white to-[#edfcf5]" />
         <div className="absolute inset-0 -z-10 dot-pattern opacity-30" />
         <div className="absolute -top-20 right-1/4 h-64 w-64 rounded-full bg-primary/10 blur-3xl -z-10" />
 

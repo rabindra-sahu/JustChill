@@ -91,7 +91,7 @@ export function DistributorSection() {
   };
 
   return (
-    <section id="distributor" className="py-20 md:py-28 bg-[#fffbf4]">
+    <section id="distributor" className="py-20 md:py-28 bg-[#f0f7f9]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section header */}
         <motion.div

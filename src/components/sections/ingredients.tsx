@@ -15,7 +15,7 @@ const ingredients = [
 
 export function IngredientsSection() {
   return (
-    <section id="ingredients" className="py-20 md:py-28 bg-[#fffbf4] relative overflow-hidden">
+    <section id="ingredients" className="py-20 md:py-28 bg-[#f0f7f9] relative overflow-hidden">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div

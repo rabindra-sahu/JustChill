@@ -41,7 +41,7 @@ export function HeroSection() {
     <section ref={heroRef} id="home" className="relative overflow-hidden min-h-screen flex flex-col">
       {/* ── Background ── */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-gradient-to-br from-[#fffbf0] via-[#fff8e8] to-[#eef8f3]" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#ffffff] via-[#f0f7f9] to-[#edf6f8]" />
         <div className="absolute -left-32 top-0 h-[70vh] w-[55vw] rounded-full bg-[hsl(var(--primary)/0.1)] blur-[100px]" />
         <div className="absolute -right-32 top-20 h-[50vh] w-[45vw] rounded-full bg-[hsl(var(--brand-leaf)/0.08)] blur-[90px]" />
         <div className="absolute bottom-0 left-1/3 h-[40vh] w-[40vw] rounded-full bg-[hsl(var(--brand-sun)/0.07)] blur-[80px]" />
