@@ -17,9 +17,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const milestones = [
-  { year: "2018", title: "Founded in Mumbai", desc: "Started with a simple mission: make Indian street flavors premium." },
+  { year: "2018", title: "Founded in Sambalpur", desc: "Started with a simple mission: make Indian street flavors premium." },
   { year: "2020", title: "Chia Seed Range", desc: "Launched wellness-led Chia Seed Drink line, pioneering the functional beverage space." },
-  { year: "2022", title: "100+ Distributors", desc: "Crossed 100 distribution partners across Maharashtra and Delhi NCR." },
+  { year: "2022", title: "100+ Distributors", desc: "Crossed 100 distribution partners across Odisha and neighbouring states." },
   { year: "2024", title: "Pan-India Expansion", desc: "Now reaching 20+ cities with 500+ distribution partners nationwide." },
 ];
 
@@ -61,15 +61,15 @@ export function AboutSection() {
           <div className="relative overflow-hidden rounded-[2rem] sm:col-span-2 group">
             <Image
               src="/street-vendor.png"
-              alt="JustChill Goli Soda street vendor in Mumbai"
+              alt="JustChill Goli Soda street vendor in Sambalpur"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700"
               sizes="(max-width: 768px) 100vw, 66vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0d2b20]/60 to-transparent" />
+            <div className="absolute inset-0 bg-black/30" />
             <div className="absolute bottom-4 left-4">
               <div className="brand-chip-dark text-xs">
-                <span>📍</span> Mumbai Street Market
+                <span>📍</span> Sambalpur Local Market
               </div>
             </div>
           </div>
@@ -77,15 +77,15 @@ export function AboutSection() {
           <div className="relative overflow-hidden rounded-[2rem] group">
             <Image
               src="/brand-lifestyle-2.png"
-              alt="Friends enjoying JustChill drinks on Mumbai rooftop"
+              alt="Friends enjoying JustChill drinks on Sambalpur rooftop"
               fill
               className="object-cover group-hover:scale-105 transition-transform duration-700"
               sizes="(max-width: 768px) 100vw, 34vw"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0d2b20]/50 to-transparent" />
+            <div className="absolute inset-0 bg-black/35" />
             <div className="absolute bottom-4 left-4">
               <div className="brand-chip-dark text-xs">
-                <span>🌆</span> Mumbai Rooftop
+                <span>🌆</span> Sambalpur Rooftop
               </div>
             </div>
           </div>

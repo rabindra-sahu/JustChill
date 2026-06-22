@@ -269,34 +269,17 @@
     color: #ffffff;
   }
 
-  /* ── Gradient text ── */
+  /* ── Solid brand text ── */
   .brand-gradient-text {
-    background-image: linear-gradient(120deg, hsl(var(--primary)) 0%, hsl(var(--brand-leaf)) 95%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: hsl(var(--secondary));
   }
 
   .gold-gradient-text {
-    background-image: linear-gradient(120deg, #f5a623 0%, #ff6b35 60%, #f5a623 100%);
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: hsl(var(--primary));
   }
 
   .hero-gradient-text {
-    background-image: linear-gradient(
-      135deg,
-      hsl(var(--primary)) 0%,
-      hsl(var(--brand-gold)) 40%,
-      hsl(var(--primary)) 100%
-    );
-    background-size: 200% auto;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    animation: shimmer 3s linear infinite;
+    color: hsl(var(--primary));
   }
 
   /* ── Chips & badges ── */

@@ -23,25 +23,25 @@ const contactCards = [
     detail: "hello@justchill.in",
     description: "Best for trade enquiries, retail discussions, and general questions.",
     href: "mailto:hello@justchill.in",
-    color: "from-blue-500/20 to-blue-500/5",
+    color: "bg-blue-500/8",
     iconColor: "text-blue-600 bg-blue-500/10",
   },
   {
     icon: Phone,
     title: "Call Us",
     detail: "+91 98765 43210",
-    description: "Connect directly for urgent distributor or stocking conversations.",
+    description: "Connect directly for distributor or stocking conversations.",
     href: "tel:+919876543210",
-    color: "from-[hsl(var(--primary))/20] to-[hsl(var(--primary))/5]",
+    color: "bg-[hsl(var(--primary))]/8",
     iconColor: "text-[hsl(var(--primary))] bg-[hsl(var(--primary))/10]",
   },
   {
     icon: MapPin,
     title: "Find Us",
-    detail: "Mumbai, India",
-    description: "Headquartered in Mumbai with pan-India distribution support.",
+    detail: "Sambalpur, Odisha",
+    description: "Headquartered in Sambalpur, Odisha with pan-India distribution support.",
     href: "#",
-    color: "from-[hsl(var(--brand-leaf))/20] to-[hsl(var(--brand-leaf))/5]",
+    color: "bg-[hsl(var(--brand-leaf))]/8",
     iconColor: "text-[hsl(var(--brand-leaf))] bg-[hsl(var(--brand-leaf))/10]",
   },
 ];
@@ -85,7 +85,7 @@ export function ContactSection() {
                 viewport={{ once: true }}
                 transition={{ delay: i * 0.1 }}
                 whileHover={{ y: -6 }}
-                className={`group rounded-[1.75rem] bg-gradient-to-br ${card.color} border border-border/50 p-6 hover:shadow-lg transition-all`}
+                className={`group rounded-[1.75rem] ${card.color} border border-border/50 p-6 hover:shadow-lg transition-all`}
               >
                 <div className={`flex h-12 w-12 items-center justify-center rounded-2xl ${card.iconColor} mb-4`}>
                   <Icon className="h-5.5 w-5.5" />
@@ -108,7 +108,7 @@ export function ContactSection() {
             className="space-y-4"
           >
             {/* WhatsApp card */}
-            <div className="overflow-hidden rounded-[1.8rem] bg-gradient-to-br from-[#0d2b20] to-[#224f3c] p-6 text-white shadow-lg">
+            <div className="overflow-hidden rounded-[1.8rem] bg-[#07212b] p-6 text-white shadow-lg">
               <div className="flex items-start gap-4">
                 <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-white/12">
                   <MessageCircle className="h-6 w-6 text-green-400" />

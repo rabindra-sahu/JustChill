@@ -56,7 +56,7 @@ export function IngredientsSection() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />
               {/* Text overlay at bottom */}
-              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-[#0d2b20]/85 to-transparent">
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-[#07212b]/80">
                 <p className="font-heading text-2xl text-white mb-2">100% Natural</p>
                 <p className="text-sm text-white/75">Sourced from Indian farms — real ingredients, zero artificial additives.</p>
                 {/* Ingredient count chips */}
@@ -116,7 +116,7 @@ export function IngredientsSection() {
             ))}
 
             {/* Bottom trust bar */}
-            <div className="col-span-2 rounded-[1.5rem] bg-gradient-to-br from-[#0d2b20] to-[#173d2c] p-5 border border-white/5">
+             <div className="col-span-2 rounded-[1.5rem] bg-[#07212b] p-5 border border-white/5">
               <div className="flex items-center gap-4">
                 <div className="text-4xl">🚫</div>
                 <div>

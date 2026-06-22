@@ -25,17 +25,7 @@ export function CTABanner() {
             sizes="100vw"
           />
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-gradient-to-br from-[#0d2b20]/92 via-[#0d2b20]/80 to-[#0d2b20]/70" />
-
-          {/* Shimmer overlay */}
-          <div
-            className="absolute inset-0 opacity-10"
-            style={{
-              backgroundImage: "linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.18) 50%, transparent 60%)",
-              backgroundSize: "200% 100%",
-              animation: "shimmer 4s linear infinite",
-            }}
-          />
+          <div className="absolute inset-0 bg-[#07212b]/90" />
 
           {/* Content */}
           <div className="relative z-10 px-6 py-16 sm:px-10 sm:py-20 lg:px-14 lg:py-24">
@@ -104,7 +94,7 @@ export function CTABanner() {
                   <div className="relative overflow-hidden rounded-[2rem] aspect-[3/4] shadow-2xl">
                     <Image
                       src="/brand-lifestyle-2.png"
-                      alt="Friends enjoying JustChill on Mumbai rooftop"
+                      alt="Friends enjoying JustChill on Sambalpur rooftop"
                       fill
                       className="object-cover"
                       sizes="35vw"

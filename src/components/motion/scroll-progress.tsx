@@ -15,7 +15,7 @@ export function ScrollProgress() {
         style={{
           scaleX,
           opacity,
-          background: "linear-gradient(90deg, hsl(var(--primary)), hsl(var(--brand-gold)), hsl(var(--brand-leaf)))",
+          background: "hsl(var(--primary))",
           boxShadow: "0 0 12px rgba(234, 120, 40, 0.5)",
         }}
       />

@@ -126,7 +126,7 @@ export function Footer() {
           {/* Brand column */}
           <div>
             <Link href="/" className="inline-flex items-center gap-3 mb-6 group">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--brand-leaf))] text-white font-bold text-sm shadow-md group-hover:shadow-lg transition-shadow">
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-[hsl(var(--primary))] text-white font-bold text-sm shadow-md group-hover:shadow-lg transition-shadow">
                 JC
               </div>
               <div>
@@ -171,7 +171,7 @@ export function Footer() {
               {[
                 { icon: Mail, label: "hello@justchill.in", href: "mailto:hello@justchill.in" },
                 { icon: Phone, label: "+91 98765 43210", href: "tel:+919876543210" },
-                { icon: MapPin, label: "Mumbai, India", href: "#" },
+                { icon: MapPin, label: "Sambalpur, Odisha, India", href: "#" },
               ].map((item) => {
                 const Icon = item.icon;
                 return (

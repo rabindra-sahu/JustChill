@@ -88,9 +88,8 @@ export function Navbar() {
               href="/"
               className="group flex items-center gap-3 transition-opacity hover:opacity-85"
             >
-              <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--brand-leaf))] text-white font-heading font-bold text-sm shadow-lg group-hover:shadow-xl transition-shadow">
+              <div className="relative flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl bg-[hsl(var(--primary))] text-white font-heading font-bold text-sm shadow-lg group-hover:shadow-xl transition-shadow">
                 <span className="relative z-10">JC</span>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
               </div>
               <div className="hidden sm:block">
                 <p className="text-sm font-bold leading-tight text-foreground tracking-tight">JustChill</p>
@@ -212,7 +211,7 @@ export function Navbar() {
                   onClick={() => setMobileOpen(false)}
                   className="flex items-center gap-3"
                 >
-                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-gradient-to-br from-[hsl(var(--primary))] to-[hsl(var(--brand-leaf))] text-white font-bold text-sm">
+                  <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-[hsl(var(--primary))] text-white font-bold text-sm">
                     JC
                   </div>
                   <span className="font-bold text-sm text-foreground">JustChill</span>

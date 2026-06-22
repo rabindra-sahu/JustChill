@@ -153,7 +153,7 @@ export function DistributorSection() {
             initial={{ opacity: 0, x: -24 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            className="overflow-hidden rounded-[2rem] bg-gradient-to-br from-[#0d2b20] via-[#173d2c] to-[#0d2b20] p-8 sm:p-10 text-white relative"
+            className="overflow-hidden rounded-[2rem] bg-[#07212b] p-8 sm:p-10 text-white relative"
           >
             <div className="absolute inset-0 dot-pattern opacity-8" />
             <div className="relative z-10">

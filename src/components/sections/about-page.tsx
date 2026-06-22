@@ -116,12 +116,12 @@ export function AboutPageContent() {
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0d2b20]/50 to-transparent" />
+                <div className="absolute inset-0 bg-black/30" />
               </div>
               {/* Floating card */}
               <div className="absolute -bottom-4 -left-4 rounded-2xl bg-white shadow-xl p-4 border border-border/50 max-w-[200px]">
                 <p className="font-heading text-2xl text-foreground">2018</p>
-                <p className="text-xs text-muted-foreground mt-0.5">Founded in Mumbai</p>
+                <p className="text-xs text-muted-foreground mt-0.5">Founded in Sambalpur, Odisha</p>
                 <div className="brand-divider mt-3" />
                 <p className="font-heading text-2xl text-foreground mt-3">2024</p>
                 <p className="text-xs text-muted-foreground mt-0.5">Pan-India Presence</p>
@@ -186,7 +186,7 @@ export function AboutPageContent() {
                 className="object-cover"
                 sizes="100vw"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0d2b20]/90 via-[#0d2b20]/60 to-transparent" />
+              <div className="absolute inset-0 bg-[#07212b]/80" />
             </div>
             <div className="relative z-10 px-8 py-16 sm:px-12 sm:py-20 max-w-2xl">
               <p className="text-xs font-black uppercase tracking-[0.28em] text-white/45 mb-4">

@@ -52,7 +52,7 @@ export const FEATURES = [
 export const TESTIMONIALS = [
   {
     name: "Priya Sharma",
-    role: "College Student, Mumbai",
+    role: "College Student, Sambalpur",
     content: "The Jeera Goli Soda is an absolute delight! It reminds me of my childhood but with a modern twist.",
     rating: 5,
     avatar: "PS",

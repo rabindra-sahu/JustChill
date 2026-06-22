@@ -34,7 +34,7 @@ function ProductCard({ flavor, label, index }: ProductCardProps) {
       <div
         className="relative px-5 pt-6 pb-8 flex flex-col"
         style={{
-          background: `linear-gradient(150deg, ${flavor.color}22, ${flavor.color}10, rgba(255,255,255,0.8))`,
+          background: `${flavor.color}15`,
         }}
       >
         {/* Top row */}
